@@ -1,0 +1,86 @@
+/* 
+.row-eq-height {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.flex-container {
+    display: flex;
+    height: 400px;
+    align-items: top;
+}
+
+.col-container {
+    display: table; /* Make the container element behave like a table */
+    /* width: 80%; /* Set full-width to expand the whole page */
+/* }  */
+
+/* .col {
+    display: table-cell; /* Make elements inside the container behave like table cells */
+/* }  */ */ */
+
+
+
+/*
+@media only screen and (max-width: 576px) {
+    .col {
+        display: block;
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .col {
+        display: block;
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .col {
+        display: block;
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .col {
+        display: block;
+        width: 80%;
+    }
+}
+
+*/
+
+body {
+    font-family: Sans-Serif;
+}
+
+div{
+    border: solid;
+    background-image: linear-gradient(rgb(240, 229, 238), rgb(187, 222, 238));
+    padding: 10px;
+    border-radius: 10px;
+}
+
+p{
+    background-color: rgb(249, 250, 235);
+    border-radius: 5px;
+    padding: 20px;
+    line-height: 1.5;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    background-image: linear-gradient(rgb(214, 203, 182), rgb(221, 187, 173));
+    border-radius: 5px;
+    padding: 8px;
+}
+
